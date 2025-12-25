@@ -342,6 +342,7 @@ body {
   box-shadow: 0 30px 60px rgba(120, 28, 31, 0.2);
   overflow: hidden;
   min-height: 240px;
+  font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", "Garamond", serif;
 }
 
 .card-message::before {
