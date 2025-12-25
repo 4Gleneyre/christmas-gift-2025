@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jay + Sarah | Christmas Match</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="snow-layer"></div>
+      <div class="garland" aria-hidden="true"></div>
+      <header class="hero">
+        <div class="ornament ornament-left"></div>
+        <div class="ornament ornament-right"></div>
+        <p class="eyebrow">A Christmas matching game</p>
+        <h1>Merry Christmas Sarah!</h1>
+        <p class="lead">
+          Find all the matching pairs to unlock your Christmas card.
+        </p>
+      </header>
+
+      <main class="content">
+        <section class="game-card">
+          <div class="game-header">
+            <div>
+              <h2>Match the memories</h2>
+              <p class="subhead">4 x 4 board · 8 pairs to unlock</p>
+            </div>
+            <button id="resetButton" class="ghost-button" type="button">
+              Shuffle &amp; retry
+            </button>
+          </div>
+
+          <div class="status-row">
+            <div id="statusText" class="status-text">0 / 8 pairs found</div>
+            <div class="status-hint">Tap two cards to reveal them.</div>
+          </div>
+
+          <div id="board" class="board" aria-live="polite"></div>
+        </section>
+
+        <section id="card" class="card-message locked" aria-live="polite">
+          <div class="lock-overlay">
+            <div class="lock-content">
+              <div class="lock-star"></div>
+              <h3>Locked</h3>
+              <p>Complete the matching game to open your card.</p>
+            </div>
+          </div>
+          <div class="message-inner">
+            <h2>Merry Christmas Sarah!</h2>
+            <p>
+              Thank you for every moment you spend with me, whether we're
+              facetiming or in person. I'm so thankful for you to be in my life,
+              even if we're many miles apart.
+            </p>
+            <p>
+              This little game is just a hint to the immense amount of joy you
+              bring in my life. Every memory we have together makes my life
+              richer and reminds me of how I am the luckiest man in the world to
+              have you as my girlfriend. You mean the world to me, and I can't
+              wait for the amazing life we're live together.
+            </p>
+            <p>
+              I love you baby! 💋
+            </p>
+            <p>
+              May we spend every Christmas in the future together. And may this
+              be the last Christmas in our lives without a Christmas kiss!
+            </p>
+            <p class="signature">Love,<br />Jay</p>
+          </div>
+        </section>
+      </main>
+
+      <div class="tree-line" aria-hidden="true">
+        <span class="tree"></span>
+        <span class="tree"></span>
+        <span class="tree"></span>
+        <span class="tree"></span>
+        <span class="tree"></span>
+        <span class="tree"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
